@@ -1,0 +1,123 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #706262;
+}
+
+.conteiner {
+  width: 60%;
+  height: 100%;
+  margin: 0 auto;
+  margin-top: 150px;
+}
+
+.timer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.timer_bloc {
+  width: 150px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.timer .time {
+  background-color: #2987be;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: aliceblue;
+  font-size: 95px;
+  width: 150px;
+}
+
+.timer .title {
+  background-color: #1059b8;
+  padding: 5px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  text-align: center;
+  color: aliceblue;
+}
+
+.buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 150px;
+}
+
+.buttons .button {
+  border: none;
+  border-radius: 10px;
+  width: 180px;
+  font-size: 18px;
+  padding: 10px;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  cursor: pointer;
+}
+
+.buttons .button.start {
+  color: #2987be;
+}
+
+.buttons .button.start:hover {
+  background-color: #1059b8;
+  color: #18ca30;
+}
+
+.buttons .button.pausa {
+  color: #2987be;
+}
+
+.buttons .button.pausa:hover {
+  background-color: #1059b8;
+  color: #f0f065;
+}
+
+.buttons .button.stop {
+  color: #2987be;
+}
+
+.buttons .button.stop:hover {
+  background-color: #1059b8;
+  color: #f06565;
+}
+
+.resoltsBloc {
+  position: absolute;
+  left: 15px;
+  bottom: 0;
+  padding: 15px;
+  width: 250px;
+  font-size: 18px;
+  border: 1px solid #1059b8;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
